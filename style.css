@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a85b0 ;
+    color: #c9d1d9;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clock-container {
+    text-align: center;
+}
+
+.time {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.date {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 600px) {
+    .time {
+        font-size: 50px;
+    }
+
+    .date {
+        font-size: 18px;
+    }
+}
