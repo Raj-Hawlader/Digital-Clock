@@ -41,11 +41,12 @@ body {
 .hand {
     position: absolute;
     width: 50%;
-    height: 2px;
+    height: 4px;
     background-color: whitesmoke;
     transform-origin: 100%;
     transform: rotate(90deg);
     transition: all 0.05s ease-in-out;
+    top: 6rem;
 }
 
 .hour {
